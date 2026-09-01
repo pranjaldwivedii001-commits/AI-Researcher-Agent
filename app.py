@@ -16,6 +16,10 @@ import streamlit as st
 if "MISTRAL_API_KEY" in st.secrets:
     os.environ["MISTRAL_API_KEY"] = st.secrets["MISTRAL_API_KEY"]
 
+st.markdown("# AI Research Agent")
+st.markdown("### Built by Pranjal Dwivedi")
+st.markdown("---")
+
 from pipeline import run_research_agent
 
 import streamlit as st
