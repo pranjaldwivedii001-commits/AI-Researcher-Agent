@@ -32,12 +32,12 @@ from pipeline import run_research_agent  # <-- change "pipeline" to your actual 
 
 
 st.set_page_config(
-    page_title="AI Research Agent by pranjal dwivedi",
+    page_title="AI Research Agent",
     page_icon="🔎",
     layout="wide",
 )
 
-st.title("🔎 AI Research Agent")
+st.title("🔎 AI Research Agent by pranjal dwivedi")
 st.caption("Enter a topic. A search agent finds sources, a reader agent scrapes the best one, and a writer agent drafts a report.")
 
 # Keep results across reruns
