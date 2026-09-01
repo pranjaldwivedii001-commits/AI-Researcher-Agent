@@ -16,10 +16,6 @@ import streamlit as st
 if "MISTRAL_API_KEY" in st.secrets:
     os.environ["MISTRAL_API_KEY"] = st.secrets["MISTRAL_API_KEY"]
 
-st.markdown("# AI Research Agent")
-st.markdown("### Built by Pranjal Dwivedi")
-st.markdown("---")
-
 from pipeline import run_research_agent
 
 import streamlit as st
@@ -36,7 +32,7 @@ from pipeline import run_research_agent  # <-- change "pipeline" to your actual 
 
 
 st.set_page_config(
-    page_title="AI Research Agent",
+    page_title="AI Research Agent by pranjal dwivedi",
     page_icon="🔎",
     layout="wide",
 )
