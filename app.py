@@ -9,6 +9,14 @@ or `from pipeline import run_research_agent`).
 Run with:
     streamlit run app.py
 """
+import os
+import streamlit as st
+
+# Expose Streamlit secret as an environment variable for Langchain/Mistral
+if "MISTRAL_API_KEY" in st.secrets:
+    os.environ["MISTRAL_API_KEY"] = st.secrets["MISTRAL_API_KEY"]
+
+from pipeline import run_research_agent
 
 import streamlit as st
 
