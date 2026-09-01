@@ -1,8 +1,6 @@
 # AI-Researcher-Agent
 A search agent that finds sources, a reader agent scrapes the best one, and a writer agent drafts a report on a requested topic.
 
-# AI Researcher Agent
-
 An autonomous research assistant powered by **LangChain**, **LangGraph**, and **Mistral AI**. This application takes a research topic or query, performs web searches, scrapes relevant content, and synthesizes a comprehensive report directly through an interactive **Streamlit** web interface.
 
 ## Key Features
